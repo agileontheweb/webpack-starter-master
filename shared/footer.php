@@ -1,4 +1,4 @@
-<div class="footer bg-primary">
+navba<div class="footer bg-primary">
   <div class="flex-inline md:flex justify-around p-6">
     <div class="flex-1 text-white xs:border-b md:border-0 p-4 m-3 leading-tight">
       <span class="font-semibold text-xl tracking-tight">

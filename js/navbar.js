@@ -13,11 +13,8 @@ $(document).ready(function(){
 
 function toggleNavbar() {
   $('.toggle-button').click(function(){
-    $('.navbar-responsive').toggle();
-    if($('.container-search').is(':visible')){
-      // $('.container-search').css('padding-top', '100px');
-      $('.container-search').toggle();
-    }
+    // $('.navbar-responsive').toggle();
+    $('.navbar-responsive').toggleClass("hide-navbar-responsive show-navbar-responsive")
   })
 }
 

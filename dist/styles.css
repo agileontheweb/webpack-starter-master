@@ -777,6 +777,29 @@ button,
 
 /* NAVBAR */
 
+@media (max-width: 768px) {
+  .navbar-top .justify-between {
+    justify-content: inherit;
+  }
+
+  .navbar-responsive {
+    width: 100vw;
+    left: -100vw;
+    -webkit-transition: left 250ms ease-in-out;
+       -moz-transition: left 250ms ease-in-out;
+         -o-transition: left 250ms ease-in-out;
+            transition: left 250ms ease-in-out;
+  }
+
+  .hide-navbar-responsive {
+    left: -100vw;
+  }
+
+  .show-navbar-responsive {
+    left: 0;
+  }
+}
+
 .btn-navbar {
   display: inline-block;
   color: #fff;
@@ -790,6 +813,18 @@ button,
 }
 
 .toggle-button {
+  display: flex;
+  align-items: center;
+  padding-left: .75rem;
+  padding-right: .75rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  border-width: 1px;
+  color: #fff;
+  visibility: visible;
+}
+
+.button {
   display: flex;
   align-items: center;
   padding-left: .75rem;

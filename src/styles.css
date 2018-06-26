@@ -22,13 +22,42 @@
 
 
 /* NAVBAR */
+
+@media (max-width: 768px) {
+  .navbar-top .justify-between{
+    justify-content:inherit;
+  }
+
+  .navbar-responsive{
+    @apply w-screen;
+    left: -100vw;
+    -webkit-transition:left 250ms ease-in-out;
+    -moz-transition:left 250ms ease-in-out;
+    -o-transition:left 250ms ease-in-out;
+    transition:left 250ms ease-in-out;
+  }
+  .hide-navbar-responsive{
+    left: -100vw;
+  }
+  .show-navbar-responsive{
+    left: 0vw;
+  }
+}
+
+
+
 .btn-navbar{
   @apply inline-block text-white mr-4 no-underline uppercase;
 }
 .btn-navbar:hover{
   @apply text-third;
 }
+
 .toggle-button{
+  @apply flex items-center px-3 py-2 border text-white visible;
+}
+
+.button{
   @apply flex items-center px-3 py-2 border text-white visible;
 }
 
