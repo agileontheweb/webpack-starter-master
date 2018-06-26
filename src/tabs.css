@@ -1,0 +1,21 @@
+.box-wrap{
+  height: 90vh;
+}
+#box-one:target,
+#box-two:target,
+#box-three:target,
+#box-four:target {
+  z-index: 1;
+}
+
+.tabs .active{
+  background: config('colors.secondary');
+}
+
+@media (max-width: 768px) {
+  .overflow-scroll-xs{
+    height: calc(100vh/1.5);
+    overflow-y: scroll;
+  }
+
+}
