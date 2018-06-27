@@ -1,6 +1,6 @@
 <!-- galleria che massimo6 thumb altrimenti fa il salto di lina  -->
 
-<div class="container relative">
+<div class="relative">
   <div class="slider">
     <div class="numbertext">1 / 6</div>
     <a data-fancybox="gallery" href="images/best-seller-1.png">
@@ -44,7 +44,7 @@
   <a class="prev" onclick="plusSlides(-1)">❮</a>
   <a class="next" onclick="plusSlides(1)">❯</a>
 
-  <div class="caption-container bg-primary text-white">
+  <div class="caption-container bg-primary text-white p-2">
     <p id="caption"></p>
   </div>
 

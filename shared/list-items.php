@@ -4,9 +4,10 @@
   </h2>
 
   <div class="flex flex-wrap container-items">
-
     <div class="sm:w-1/2 md:w-1/2 lg:w-1/4 text-grey-darker text-center p-1 item border border-grey">
-      <img src="images/best-seller-1.png" />
+      <a href="#" class="no-underline">
+        <img src="images/best-seller-1.png" />
+      <a/>
       <div class="item-name pt-4 pb-4">
         <a href="#" class="text-third no-underline">
           <h3 class="text-sm">PANSÉ -VIOLA DEL PENSIER</h3>
@@ -25,9 +26,10 @@
       </div>
       <p class="text-sm pt-4 pb-4"><strong>€ 0,75</strong></p>
     </div>
-
     <div class="sm:w-1/2 md:w-1/2 lg:w-1/4 text-grey-darker text-center p-1 item border border-grey">
-      <img src="images/best-seller-1.png" />
+      <a href="#" class="no-underline">
+        <img src="images/best-seller-2.png" />
+      </a>
       <div class="item-name pt-4 pb-4">
         <a href="#" class="text-third no-underline">
           <h3 class="text-sm">PANSÉ -VIOLA DEL PENSIER</h3>
@@ -46,9 +48,10 @@
       </div>
       <p class="text-sm pt-4 pb-4"><strong>€ 0,75</strong></p>
     </div>
-
     <div class="sm:w-1/2 md:w-1/2 lg:w-1/4 text-grey-darker text-center p-1 item border border-grey">
-      <img src="images/best-seller-1.png" />
+      <a href="#" class="no-underline">
+        <img src="images/best-seller-1.png" />
+      </a>
       <div class="item-name pt-4 pb-4">
         <a href="#" class="text-third no-underline">
           <h3 class="text-sm">PANSÉ -VIOLA DEL PENSIER</h3>
@@ -67,9 +70,10 @@
       </div>
       <p class="text-sm pt-4 pb-4"><strong>€ 0,75</strong></p>
     </div>
-
     <div class="sm:w-1/2 md:w-1/2 lg:w-1/4 text-grey-darker text-center p-1 item border border-grey">
-      <img src="images/best-seller-1.png" />
+      <a href="#" class="no-underline">
+        <img src="images/best-seller-2.png" />
+      </a>
       <div class="item-name pt-4 pb-4">
         <a href="#" class="text-third no-underline">
           <h3 class="text-sm">PANSÉ -VIOLA DEL PENSIER</h3>
