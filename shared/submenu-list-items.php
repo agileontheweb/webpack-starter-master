@@ -1,4 +1,4 @@
-<ul class="list-reset submenu-list-items hidden">
+<ul class="list-reset submenu-list-items">
   <li>
     <a href="#" class="block text-third my-3 no-underline hover:underline">Sub 1</a>
   </li>

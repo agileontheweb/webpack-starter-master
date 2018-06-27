@@ -782,7 +782,8 @@ button,
     justify-content: inherit;
   }
 
-  .navbar-responsive {
+  .navbar-responsive,
+  .side-menu-responsive {
     width: 100vw;
     left: -100vw;
     -webkit-transition: left 250ms ease-in-out;
@@ -791,11 +792,17 @@ button,
             transition: left 250ms ease-in-out;
   }
 
-  .hide-navbar-responsive {
+  .side-menu-responsive {
+    top: 0;
+  }
+
+  .hide-navbar-responsive,
+  .hide-sidemenu-responsive {
     left: -100vw;
   }
 
-  .show-navbar-responsive {
+  .show-navbar-responsive,
+  .show-sidemenu-responsive {
     left: 0;
   }
 }
@@ -841,7 +848,7 @@ button,
 }
 
 ul li:hover .container-submenu {
-  display: block;
+  /* display: block; */
 }
 
 .container-submenu {

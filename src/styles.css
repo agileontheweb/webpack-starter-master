@@ -28,7 +28,8 @@
     justify-content:inherit;
   }
 
-  .navbar-responsive{
+  .navbar-responsive,
+  .side-menu-responsive{
     @apply w-screen;
     left: -100vw;
     -webkit-transition:left 250ms ease-in-out;
@@ -36,16 +37,19 @@
     -o-transition:left 250ms ease-in-out;
     transition:left 250ms ease-in-out;
   }
+  .side-menu-responsive{
+    top:0
+  }
 
-  .hide-navbar-responsive{
+  .hide-navbar-responsive,
+  .hide-sidemenu-responsive{
     left: -100vw;
   }
-  .show-navbar-responsive{
+  .show-navbar-responsive,
+  .show-sidemenu-responsive{
     left: 0vw;
   }
 }
-
-
 
 .btn-navbar{
   @apply inline-block text-white mr-4 no-underline uppercase;
@@ -67,8 +71,9 @@
 }
 
 ul li:hover .container-submenu{
-  display: block;
+  /* display: block; */
 }
+
 .container-submenu{
   padding: 3em;
   position: absolute;

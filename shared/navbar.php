@@ -56,11 +56,11 @@
   <a class="text-white rounded-full btn-xs w-8 m-auto mt-8 mb-8 md:invisible toggle-button">
     <i class="fas fa-times"></i>
   </a>
-  <a href="#" class="btn-navbar px-4 py-4 m-2 mt-0 block text-center">Home</a>
+  <a href="index.php" class="btn-navbar px-4 py-4 m-2 mt-0 block text-center">Home</a>
   <a href="#" class="btn-navbar px-4 py-4 m-2 mt-0 block text-center">Azienda</a>
-  <a href="#" class="btn-navbar px-4 py-4 m-2 block text-center">Piante</a>
+  <a href="sidebar-page.php" class="btn-navbar px-4 py-4 m-2 block text-center">Piante</a>
   <a href="#" class="btn-navbar px-4 py-4 m-2 block text-center">Servizi</a>
-  <a href="#" class="btn-navbar px-4 py-4 m-2 block text-center">Contatti</a>
+  <a href="contact.php" class="btn-navbar px-4 py-4 m-2 block text-center">Contatti</a>
 </div>
 
 <?php include "search.php"; ?>
