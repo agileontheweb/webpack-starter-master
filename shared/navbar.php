@@ -2,7 +2,6 @@
   <?#php include "cookie-consent.php"; ?>
   <?#php include "alert.php"; ?>
   <div class="flex items-center justify-between flex-wrap bg-primary">
-
     <div class="flex justify-start text-xs">
       <a href="index.php" class="p-3">
         <img src="images/logo.svg" alt="Garden 9010" width="80px" height="40px" class="mr-6 xs:mr-0">
@@ -34,22 +33,27 @@
       </a>
     </div>
 
-    <a class="toggle-button sm:visible md:hidden mr-3">
+    <a class="btn-xs toggle-button sm:visible md:hidden mr-3">
       <i class="fas fa-bars"></i>
     </a>
 
-    <a class="toggle-button sm:visible md:hidden mr-3">
+    <a href="login.php" class="btn-xs sm:visible md:hidden mr-3">
       <i class="fas fa-user"></i>
     </a>
 
-    <a href="tel:+3474260996" class="button sm:visible md:hidden mr-3 absolute pin-r no-underline">
+    <a href="#" class="btn-xs btn-search sm:visible md:hidden mr-3 no-underline">
+      <i class="fas fa-search"></i>
+    </a>
+
+    <a href="tel:+3474260996" class="btn-xs sm:visible md:hidden mr-3 absolute pin-r no-underline">
       <i class="fas fa-phone"></i>
     </a>
+
   </div>
 </nav>
 
-<div class="flex flex-col navbar-responsive bg-primary text-xs fixed z-10 h-screen w-full hide-navbar-responsive">
-  <a class="text-white rounded-full toggle-button w-8 m-auto mt-8 mb-8">
+<div class="flex flex-col navbar-responsive bg-primary text-xs fixed z-10 h-screen w-full hide-navbar-responsive md:invisible">
+  <a class="text-white rounded-full btn-xs w-8 m-auto mt-8 mb-8 md:invisible toggle-button">
     <i class="fas fa-times"></i>
   </a>
   <a href="#" class="btn-navbar px-4 py-4 m-2 mt-0 block text-center">Home</a>

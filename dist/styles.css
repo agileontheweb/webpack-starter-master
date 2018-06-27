@@ -812,7 +812,7 @@ button,
   color: #719b25;
 }
 
-.toggle-button {
+.btn-xs {
   display: flex;
   align-items: center;
   padding-left: .75rem;
@@ -823,6 +823,10 @@ button,
   color: #fff;
   visibility: visible;
 }
+
+/* toggle-button{
+  @apply flex items-center px-3 py-2 border text-white visible;
+} */
 
 .button {
   display: flex;
@@ -998,6 +1002,12 @@ ul li:hover .submenu-list-items {
   padding-left: 1.5rem;
   text-align: left;
   order: 1;
+}
+
+.btn-active {
+  /* @apply bg-third text-white !important; */
+  background: #719b25 !important;
+  color: #fff !important;
 }
 
 @media (max-width: 768px) {

@@ -36,6 +36,7 @@
     -o-transition:left 250ms ease-in-out;
     transition:left 250ms ease-in-out;
   }
+
   .hide-navbar-responsive{
     left: -100vw;
   }
@@ -53,9 +54,13 @@
   @apply text-third;
 }
 
-.toggle-button{
+.btn-xs{
   @apply flex items-center px-3 py-2 border text-white visible;
 }
+
+/* toggle-button{
+  @apply flex items-center px-3 py-2 border text-white visible;
+} */
 
 .button{
   @apply flex items-center px-3 py-2 border text-white visible;
@@ -186,6 +191,11 @@ ul li:hover .submenu-list-items{
   order: 1;
 }
 
+.btn-active{
+  /* @apply bg-third text-white !important; */
+  background: config('colors.third') !important;
+  color: #fff !important;
+}
 @media (max-width: 768px) {
   .show-list-items .item img{
     border:1px solid red;

@@ -10,8 +10,10 @@
 
   <body class="font-sans">
     <?php include_once "shared/navbar.php"; ?>
-    <?php include_once "shared/sidebar-page.php"; ?>
-    <?php include_once "shared/footer.php"; ?>
+    <div class="main">
+      <?php include_once "shared/sidebar-page.php"; ?>
+      <?php include_once "shared/footer.php"; ?>
+    </div>
   </body>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="js/navbar.js"></script>
