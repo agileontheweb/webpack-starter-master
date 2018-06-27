@@ -1,8 +1,8 @@
 <div class="module-details-item bg-white text-black pb-10">
   <?php include_once "shared/breadcrumbs.php"; ?>
   <div class="flex flex-wrap">
-    <div class="sm:w-1/2 md:w-1/2 text-grey-darker px-4 py-2 ">
-      <h1 class="mt-6">
+    <div class="sm:w-1/2 md:w-1/2 text-grey-darker px-4">
+      <h1 class="mt-6 pt-3 pb-3">
         Nome Fiore di sta ceppa
       </h1>
       <?php include_once "shared/gallery-item.php"; ?>

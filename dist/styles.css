@@ -819,6 +819,16 @@ button,
   color: #719b25;
 }
 
+.numbers-of-products {
+  background-color: #e3342f;
+  position: absolute;
+  border-radius: 50%;
+  padding: 5px;
+  right: -5px;
+  top: -5px;
+  font-size: 8px;
+}
+
 .btn-xs {
   display: flex;
   align-items: center;
@@ -848,7 +858,7 @@ button,
 }
 
 ul li:hover .container-submenu {
-  /* display: block; */
+  display: block;
 }
 
 .container-submenu {

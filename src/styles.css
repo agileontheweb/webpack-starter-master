@@ -58,6 +58,16 @@
   @apply text-third;
 }
 
+.numbers-of-products{
+  @apply bg-red;
+  position: absolute;
+  border-radius: 50%;
+  padding: 5px;
+  right:-5px;
+  top:-5px;
+  font-size: 8px;
+}
+
 .btn-xs{
   @apply flex items-center px-3 py-2 border text-white visible;
 }
@@ -71,7 +81,7 @@
 }
 
 ul li:hover .container-submenu{
-  /* display: block; */
+  display: block;
 }
 
 .container-submenu{

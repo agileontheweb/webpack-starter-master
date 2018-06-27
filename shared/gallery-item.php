@@ -3,27 +3,37 @@
 <div class="container relative">
   <div class="slider">
     <div class="numbertext">1 / 6</div>
-    <img src="images/best-seller-1.png" class="w-full">
+    <a data-fancybox="gallery" href="images/best-seller-1.png">
+      <img src="images/best-seller-1.png" class="w-full">
+    </a>
   </div>
 
   <div class="slider">
     <div class="numbertext">2 / 6</div>
-    <img src="images/best-seller-2.png" class="w-full">
+    <a data-fancybox="gallery" href="images/best-seller-2.png">
+      <img src="images/best-seller-2.png" class="w-full">
+    </a>
   </div>
 
   <div class="slider">
     <div class="numbertext">3 / 6</div>
-    <img src="images/best-seller-1.png" class="w-full">
+    <a data-fancybox="gallery" href="images/best-seller-1.png">
+      <img src="images/best-seller-1.png" class="w-full">
+    </a>
   </div>
 
   <div class="slider">
     <div class="numbertext">4 / 6</div>
-    <img src="images/best-seller-2.png" class="w-full">
+    <a data-fancybox="gallery" href="images/best-seller-2.png">
+      <img src="images/best-seller-2.png" class="w-full">
+    </a>
   </div>
 
   <div class="slider">
     <div class="numbertext">5 / 6</div>
-    <img src="images/best-seller-1.png" class="w-full">
+    <a data-fancybox="gallery" href="images/best-seller-1.png">
+      <img src="images/best-seller-2.png" class="w-full">
+    </a>
   </div>
 
   <div class="slider">

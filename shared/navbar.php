@@ -37,8 +37,15 @@
       <i class="fas fa-bars"></i>
     </a>
 
-    <a href="login.php" class="btn-xs sm:visible md:hidden mr-3">
+    <!-- If user is not logged -->
+    <!-- <a href="login.php" class="btn-xs sm:visible md:hidden mr-3">
       <i class="fas fa-user"></i>
+    </a> -->
+
+    <!-- When user is logged -->
+    <a href="login.php" class="btn-xs sm:visible md:hidden mr-3 no-underline relative">
+      <i class="fas fa-cart-arrow-down"></i>
+      <span class="numbers-of-products">10</span>
     </a>
 
     <a href="#" class="btn-xs btn-search sm:visible md:hidden mr-3 no-underline">
@@ -56,11 +63,16 @@
   <a class="text-white rounded-full btn-xs w-8 m-auto mt-8 mb-8 md:invisible toggle-button">
     <i class="fas fa-times"></i>
   </a>
+  <a href="index.php" class="btn-navbar px-4 py-4 m-2 mt-0 block text-center">Carrello</a>
+  <div class="border-b mb-5"></div>
   <a href="index.php" class="btn-navbar px-4 py-4 m-2 mt-0 block text-center">Home</a>
   <a href="#" class="btn-navbar px-4 py-4 m-2 mt-0 block text-center">Azienda</a>
   <a href="sidebar-page.php" class="btn-navbar px-4 py-4 m-2 block text-center">Piante</a>
   <a href="#" class="btn-navbar px-4 py-4 m-2 block text-center">Servizi</a>
   <a href="contact.php" class="btn-navbar px-4 py-4 m-2 block text-center">Contatti</a>
+  <div class="border-b mb-6"></div>
+  <a href="index.php" class="btn-navbar px-4 py-4 m-2 mt-0 block text-center">Profilo</a>
+  <a href="index.php" class="btn-navbar px-4 py-4 m-2 mt-0 block text-center">Disconetti</a>
 </div>
 
 <?php include "search.php"; ?>
