@@ -1,10 +1,10 @@
 <div class="module-button-number-increment">
   <form method="post" action="">
-    <div class="xs:mt-0 pt-8 pb-8 mt-8 text-center border-b">
+    <div class="xs:mt-0 pt-10 pb-8 text-center border-b">
       <p class="block">
         <strong>Aggiungi le quantitá al carrello e premi Acquista.</strong>
       </p>
-      <div class="flex flex-grow justify-center mt-6">
+      <div class="flex flex-grow justify-center">
         <div class="flex-1 text-white text-center bg-third px-4 py-2 m-2 cursor-pointer btn-minus">
           <i class="fa fa-minus"></i>
         </div>
@@ -16,8 +16,13 @@
         </div>
       </div>
       <a href="#" class="block btn-add-to-cart no-underline">
+        <i class="fa fa-cart-arrow-down"></i>
         Aggiungi al carrello
       </a>
+      <a href="#" class="block btn-add-wish-list no-underline">
+        <i class="fa fa-heart"></i> Aggiungi alla lista dei desideri
+      </a>
+
       <small>Pagamenti sicuri con:</small>
       <br />
       <i class="fab fa-cc-paypal fa-2x"></i>

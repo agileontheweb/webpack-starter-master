@@ -55,7 +55,7 @@
   </div>
 
   <div class="flex-grow  text-center uppercase p-4 border-primary border-t">
-    <a href="#" class="text-white no-underline hover:text-third font-semibold">
+    <a href="sidebar-page.php" class="text-white no-underline hover:text-third font-semibold">
       Esplora tutte le piante
     </a>
   </div>

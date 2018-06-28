@@ -182,40 +182,24 @@ ul li:hover .submenu-list-items{
 }
 
 .show-list-items .item{
-  @apply flex w-full;
+  @apply flex w-full mb-3;
 }
 
-.show-list-items .item img{
-  height: 200px;
-}
-.show-list-items .container-items{
-  @apply flex-1;
-}
- .show-list-items .container-items .item{
+.show-list-items .container-items .item{
   @apply border-b;
 }
-.show-list-items .container-items .item .flex{
-  display: inline-grid;
-  @apply pin-r absolute;
-  right: 20px;
+
+.show-list-items .container-items .item .btn-group{
+  @apply items-start p-4;
 }
 
 .show-list-items .container-items .item .item-name{
-  @apply pl-6;
-  text-align: left;
-  order: 1;
+  @apply p-4 text-left;
 }
 
 .btn-active{
-  /* @apply bg-third text-white !important; */
   background: config('colors.third') !important;
-  color: #fff !important;
-}
-@media (max-width: 768px) {
-  .show-list-items .item img{
-    border:1px solid red;
-    height: 150px;
-  }
+  color: config('colors.white') !important;
 }
 
 @tailwind utilities;
