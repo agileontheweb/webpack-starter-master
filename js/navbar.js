@@ -9,6 +9,7 @@ $(document).ready(function(){
   buttonNumberIncrement();
   buttonToggleList();
   navFixed();
+  addToCart();
 });
 
 function toggleNavbar() {
@@ -116,5 +117,14 @@ function toggleSideMenu(){
   $('.toggle-button-close').click(function(){
     $('.side-menu-responsive').toggleClass("hide-sidemenu-responsive show-sidemenu-responsive");
   })
+}
 
+
+function addToCart(){
+  $('.btn-add-to-cart').click(function(){
+    $('.animation-cart').addClass('shake-cart');
+    $(".animation-cart").bind("animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd", function(){
+      $('.animation-cart').removeClass('shake-cart');
+    });
+  })
 }

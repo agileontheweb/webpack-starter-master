@@ -26,7 +26,14 @@
     </div>
 
     <div class="flex justify-end text-xs xs:hidden md:block">
-      <a href="login.php" class="btn-navbar">Accedi / Registrati</a>
+
+      <!-- <a href="login.php" class="btn-navbar">Accedi / Registrati</a> -->
+
+      <a href="#" class="btn-navbar animation-cart relative">
+        <i class="fas fa-cart-arrow-down"></i>
+        <span class="numbers-of-products relative">10</span>
+      </a>
+
       <a href="#" class="btn-navbar">347 42.60.996</a>
       <a href="#" class="btn-navbar btn-search">
         <i class="fa fa-search"></i> Cerca
