@@ -6,11 +6,9 @@ $(document).ready(function(){
   toggleSearch();
   toggleSideMenu();
   bannerHome();
-  tabs();
   buttonNumberIncrement();
   buttonToggleList();
   navFixed();
-
 });
 
 function toggleNavbar() {
@@ -56,15 +54,23 @@ function bannerHome(){
   $('.banner-home').height(h - navbarTopHeight);
 }
 
-function tabs(){
-  var btns = $("#tabs li");
-  for (var i = 0; i < btns.length; i++) {
-    btns[i].addEventListener("click", function() {
-      var current = document.getElementsByClassName("active");
-      current[0].className = current[0].className.replace(" active", "");
-      this.className += " active";
-    });
+
+function changeTab(evt, sectionName) {
+  var sectionName;
+  var i, tabcontent, tablinks;
+  tablinks = document.getElementsByClassName("tablinks");
+  tabcontent = document.getElementsByClassName("tabcontent");
+
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
   }
+
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  document.getElementById(sectionName).style.display = "block";
+  evt.currentTarget.className += " active";
 }
 
 function buttonNumberIncrement(){

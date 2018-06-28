@@ -1,6 +1,6 @@
 <div class="flex flex-wrap special-offers">
   <div class="sm:w-1/2 md:w-1/4 lg:w-1/4 box">
-    <img src="images/best-seller-1.png" />
+    <img src="images/best-seller-2.png" />
     <div class="flex justify-center pt-10">
       <a href="#" class="btn-add-wish-list">
         <i class="fa fa-heart"></i>
@@ -15,7 +15,7 @@
     </div>
   </div>
   <div class="sm:w-1/2 md:w-1/4 lg:w-1/4 box">
-    <img src="images/best-seller-2.png" />
+    <img src="images/best-seller-1.png" />
     <div class="flex justify-center pt-10">
       <a href="#" class="btn-add-wish-list">
         <i class="fa fa-heart"></i>
