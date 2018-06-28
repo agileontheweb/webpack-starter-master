@@ -10,6 +10,7 @@ $(document).ready(function(){
   buttonNumberIncrement();
   buttonToggleList();
   navFixed();
+
 });
 
 function toggleNavbar() {
@@ -39,7 +40,14 @@ function toggleSearch(){
     var navbarTopHeight = $('.navbar-top').innerHeight();
     $('.container-search').css('top', navbarTopHeight);
     $('.container-search').toggle();
-  })
+  });
+
+  $(document).mouseup(function(e) {
+    var container = $(".container-search");
+    if (!container.is(e.target) && container.has(e.target).length === 0){
+      container.hide();
+    }
+  });
 }
 
 function bannerHome(){
