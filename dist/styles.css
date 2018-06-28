@@ -841,10 +841,6 @@ button,
   visibility: visible;
 }
 
-/* toggle-button{
-  @apply flex items-center px-3 py-2 border text-white visible;
-} */
-
 .button {
   display: flex;
   align-items: center;

@@ -29,7 +29,7 @@
 
       <!-- <a href="login.php" class="btn-navbar">Accedi / Registrati</a> -->
 
-      <a href="#" class="btn-navbar animation-cart relative">
+      <a href="cart-page.php" class="btn-navbar animation-cart relative">
         <i class="fas fa-cart-arrow-down"></i>
         <span class="numbers-of-products relative">10</span>
       </a>
