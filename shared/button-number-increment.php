@@ -16,8 +16,11 @@
         </div>
       </div>
       <a href="#" class="block btn-add-to-cart no-underline">
-        <i class="fa fa-cart-arrow-down"></i>
+        <i class="fa fa-cart-plus"></i>
         Aggiungi al carrello
+      </a>
+      <a href="#" class="block btn-add-to-cart no-underline">
+        Compra subito
       </a>
       <a href="#" class="block btn-add-wish-list no-underline">
         <i class="fa fa-heart"></i> Aggiungi alla lista dei desideri
