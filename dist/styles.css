@@ -938,6 +938,23 @@ ul li:hover .container-submenu {
   border-width: 2px;
 }
 
+.btn-confirm-order {
+  color: #fff;
+  text-align: center;
+  background-color: #719b25;
+  padding-left: .75rem;
+  padding-right: .75rem;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  margin: .5rem;
+  border-width: 1px;
+}
+
+.btn-confirm-order:hover {
+  color: #fff;
+  background-color: #2c4928;
+}
+
 /* Gallery */
 
 .prev,
@@ -3083,6 +3100,10 @@ ul li:hover .submenu-list-items {
   margin: 1rem;
 }
 
+.m-5 {
+  margin: 1.25rem;
+}
+
 .m-6 {
   margin: 1.5rem;
 }
@@ -3155,6 +3176,16 @@ ul li:hover .submenu-list-items {
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
+}
+
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
 }
 
 .my-6 {
@@ -3295,6 +3326,22 @@ ul li:hover .submenu-list-items {
 
 .ml-4 {
   margin-left: 1rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mr-5 {
+  margin-right: 1.25rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.ml-5 {
+  margin-left: 1.25rem;
 }
 
 .mt-6 {
@@ -7259,6 +7306,10 @@ ul li:hover .submenu-list-items {
     margin: 1rem;
   }
 
+  .xs\:m-5 {
+    margin: 1.25rem;
+  }
+
   .xs\:m-6 {
     margin: 1.5rem;
   }
@@ -7331,6 +7382,16 @@ ul li:hover .submenu-list-items {
   .xs\:mx-4 {
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+
+  .xs\:my-5 {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .xs\:mx-5 {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
   }
 
   .xs\:my-6 {
@@ -7471,6 +7532,22 @@ ul li:hover .submenu-list-items {
 
   .xs\:ml-4 {
     margin-left: 1rem;
+  }
+
+  .xs\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
+  .xs\:mr-5 {
+    margin-right: 1.25rem;
+  }
+
+  .xs\:mb-5 {
+    margin-bottom: 1.25rem;
+  }
+
+  .xs\:ml-5 {
+    margin-left: 1.25rem;
   }
 
   .xs\:mt-6 {
@@ -11428,6 +11505,10 @@ ul li:hover .submenu-list-items {
     margin: 1rem;
   }
 
+  .sm\:m-5 {
+    margin: 1.25rem;
+  }
+
   .sm\:m-6 {
     margin: 1.5rem;
   }
@@ -11500,6 +11581,16 @@ ul li:hover .submenu-list-items {
   .sm\:mx-4 {
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+
+  .sm\:my-5 {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .sm\:mx-5 {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
   }
 
   .sm\:my-6 {
@@ -11640,6 +11731,22 @@ ul li:hover .submenu-list-items {
 
   .sm\:ml-4 {
     margin-left: 1rem;
+  }
+
+  .sm\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
+  .sm\:mr-5 {
+    margin-right: 1.25rem;
+  }
+
+  .sm\:mb-5 {
+    margin-bottom: 1.25rem;
+  }
+
+  .sm\:ml-5 {
+    margin-left: 1.25rem;
   }
 
   .sm\:mt-6 {
@@ -15597,6 +15704,10 @@ ul li:hover .submenu-list-items {
     margin: 1rem;
   }
 
+  .md\:m-5 {
+    margin: 1.25rem;
+  }
+
   .md\:m-6 {
     margin: 1.5rem;
   }
@@ -15669,6 +15780,16 @@ ul li:hover .submenu-list-items {
   .md\:mx-4 {
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+
+  .md\:my-5 {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .md\:mx-5 {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
   }
 
   .md\:my-6 {
@@ -15809,6 +15930,22 @@ ul li:hover .submenu-list-items {
 
   .md\:ml-4 {
     margin-left: 1rem;
+  }
+
+  .md\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
+  .md\:mr-5 {
+    margin-right: 1.25rem;
+  }
+
+  .md\:mb-5 {
+    margin-bottom: 1.25rem;
+  }
+
+  .md\:ml-5 {
+    margin-left: 1.25rem;
   }
 
   .md\:mt-6 {
@@ -19766,6 +19903,10 @@ ul li:hover .submenu-list-items {
     margin: 1rem;
   }
 
+  .lg\:m-5 {
+    margin: 1.25rem;
+  }
+
   .lg\:m-6 {
     margin: 1.5rem;
   }
@@ -19838,6 +19979,16 @@ ul li:hover .submenu-list-items {
   .lg\:mx-4 {
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+
+  .lg\:my-5 {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .lg\:mx-5 {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
   }
 
   .lg\:my-6 {
@@ -19978,6 +20129,22 @@ ul li:hover .submenu-list-items {
 
   .lg\:ml-4 {
     margin-left: 1rem;
+  }
+
+  .lg\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
+  .lg\:mr-5 {
+    margin-right: 1.25rem;
+  }
+
+  .lg\:mb-5 {
+    margin-bottom: 1.25rem;
+  }
+
+  .lg\:ml-5 {
+    margin-left: 1.25rem;
   }
 
   .lg\:mt-6 {
@@ -23935,6 +24102,10 @@ ul li:hover .submenu-list-items {
     margin: 1rem;
   }
 
+  .xl\:m-5 {
+    margin: 1.25rem;
+  }
+
   .xl\:m-6 {
     margin: 1.5rem;
   }
@@ -24007,6 +24178,16 @@ ul li:hover .submenu-list-items {
   .xl\:mx-4 {
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+
+  .xl\:my-5 {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .xl\:mx-5 {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
   }
 
   .xl\:my-6 {
@@ -24147,6 +24328,22 @@ ul li:hover .submenu-list-items {
 
   .xl\:ml-4 {
     margin-left: 1rem;
+  }
+
+  .xl\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
+  .xl\:mr-5 {
+    margin-right: 1.25rem;
+  }
+
+  .xl\:mb-5 {
+    margin-bottom: 1.25rem;
+  }
+
+  .xl\:ml-5 {
+    margin-left: 1.25rem;
   }
 
   .xl\:mt-6 {

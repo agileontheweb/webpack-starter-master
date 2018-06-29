@@ -9,7 +9,7 @@
           <i class="fa fa-minus"></i>
         </div>
         <div class="flex-1 text-grey-darker text-center bg-white px-4 py-2 m-2 result-number border">
-          <input type="text" name="french-hens" id="french-hens" class="w-8 text-center" value="0">
+          <input type="text" name="niente" id="niente" class="w-8 text-center" value="0">
         </div>
         <div class="flex-1 text-white text-center bg-third px-4 py-2 m-2 cursor-pointer btn-plus">
           <i class="fa fa-plus"></i>

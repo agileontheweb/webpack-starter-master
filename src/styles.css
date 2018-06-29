@@ -126,6 +126,12 @@ ul li:hover .container-submenu{
   @apply bg-white text-third border-third border-2;
 }
 
+.btn-confirm-order{
+  @apply text-white text-center bg-third px-3 py-3 m-2 border
+}
+.btn-confirm-order:hover{
+  @apply text-white bg-secondary
+}
 
 /* Gallery */
 
