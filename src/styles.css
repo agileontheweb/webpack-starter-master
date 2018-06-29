@@ -133,6 +133,13 @@ ul li:hover .container-submenu{
   @apply text-white bg-secondary
 }
 
+.btn-update-order{
+  @apply text-third text-center border-third px-3 py-3 m-2 border
+}
+.btn-update-order:hover{
+  @apply bg-third text-white text-center border-third px-3 py-3 m-2 border
+}
+
 /* Gallery */
 
 
